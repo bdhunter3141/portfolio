@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for the work of Bryan Hunter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdhunter3141/portfolio.git"
+  },
+  "author": "Bryan Hunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdhunter3141/portfolio/issues"
+  },
+  "homepage": "https://github.com/bdhunter3141/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
