@@ -1,5 +1,16 @@
-var express = require('express')
-var app = express()
+var express = require('express');
+var sassMiddleware = require('node-sass-middleware');
+var path = require('path');
+var app = express();
+app.use(sassMiddleware({
+	/* Options */
+	src: path.join(__dirname, 'public', 'styles'),
+	dest: path.join(__dirname, 'public'),
+	debug: true,
+	outputStyle: 'compressed',
+	prefix: '/public'
+}));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'ejs')
 
