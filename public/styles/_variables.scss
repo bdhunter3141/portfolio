@@ -1,0 +1,10 @@
+// _variables
+
+// Fonts
+
+$interval: 1.5;
+
+$scale0:   1rem;                 // 18px (base size, body text)
+$scale-1:  $scale0 / $interval;  // 12px
+$scale1:   $scale0 * $interval;  // 27px
+$scale2:   $scale1 * $interval;  // 40.5px

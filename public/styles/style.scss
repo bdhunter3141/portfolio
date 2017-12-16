@@ -1,3 +1,13 @@
+// Imports
+
+@import 'variables';
+@import url('https://rsms.me/inter/inter-ui.css');
+
+html {
+  font-size: percentage(18/16);
+  font-family: 'Inter UI', sans-serif;
+}
+
 p {
-  color: blue;
+  font-size: $scale0;
 }
