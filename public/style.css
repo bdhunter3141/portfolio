@@ -1,1 +1,1 @@
-@import url("https://rsms.me/inter/inter-ui.css");html{font-size:112.5%;font-family:'Inter UI', sans-serif}p{font-size:1rem}
+@import url("https://rsms.me/inter/inter-ui.css");html{font-size:112.5%;font-family:'Inter UI', sans-serif}p{font-size:1rem}#site-header{display:grid;grid-template-columns:30px repeat(2, 1fr) 30px}#site-header h2{grid-column-start:2;align-self:center;color:#333}#site-header ul{grid-column-start:3;justify-self:end;display:flex}#site-header ul li{margin-left:25px;list-style:none}#site-header ul li a{text-decoration:none;color:#333}
