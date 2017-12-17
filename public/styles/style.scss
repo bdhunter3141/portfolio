@@ -2,6 +2,7 @@
 
 @import 'variables';
 @import url('https://rsms.me/inter/inter-ui.css');
+@import 'header';
 
 // Main Styles
 
@@ -10,38 +11,10 @@ html {
   font-family: 'Inter UI', sans-serif;
 }
 
-p {
-  font-size: $scale0;
+body {
+  margin: 0;
 }
 
-// Header
-
-#site-header {
-  display: grid;
-  grid-template-columns: 30px repeat(2, 1fr) 30px;
-
-  h2 {
-    grid-column-start: 2;
-    align-self: center;
-    color: $basic-color;
-  }
-
-  ul {
-    grid-column-start: 3;
-    justify-self: end;
-    display: flex;
-    
-    li {
-      margin-left: 25px;
-      list-style: none;
-
-      a {
-        text-decoration: none;
-        color: $basic-color;
-      }
-
-    }
-
-  }
-
+p {
+  font-size: $scale0;
 }
