@@ -2,6 +2,7 @@
 
 @import 'variables';
 @import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Montserrat:700');
 @import 'header';
 
 // Main Styles
@@ -13,6 +14,14 @@ html {
 
 body {
   margin: 0;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {

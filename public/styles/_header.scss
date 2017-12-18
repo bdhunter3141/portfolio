@@ -8,9 +8,10 @@ header {
   display: grid;
   grid-template-columns: 30px repeat(2, 1fr) 30px;
 
-  h2 {
+  h1 {
     grid-column-start: 2;
     align-self: center;
+    font-family: 'Bree Serif', serif;
     // color: $basic-color;
   }
 
