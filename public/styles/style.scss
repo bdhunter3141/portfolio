@@ -4,6 +4,7 @@
 @import url('https://rsms.me/inter/inter-ui.css');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Montserrat:700');
 @import 'header';
+@import 'projects';
 
 // Main Styles
 
@@ -26,4 +27,8 @@ h2, h3, h4, h5, h6 {
 
 p {
   font-size: $scale0;
+}
+
+.main-content {
+  overflow: hidden;
 }

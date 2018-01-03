@@ -1,4 +1,8 @@
+
 $(document).ready(function ($) {
+
+  // HEADER --------------------------------------------
+
   // Defining a function to set size for #hero 
   function fullscreen() {
     $('#hero').css({
