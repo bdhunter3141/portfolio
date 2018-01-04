@@ -48,26 +48,55 @@ header {
 .hero-header{
   position: absolute;
   top: 50%;
-  text-align: center;
+  text-align: right;
   width: 100%;
   font-size: $scale1;
   -ms-transform: translate(0,-50%); /* IE 9 */
    	-webkit-transform: translate(0,-50%); /* Safari */
     transform: translate(0,-50%);  
+
+  h1 {
+    background-color: rgba(255, 0, 0, 0.8);
+    width: 60%;
+    padding: 10px 20px 20px 10px;
+  }
 }
+
+// STRIPE BACKGROUND
 
 .stripes {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   display: grid;
   grid: repeat(5, 200px) / repeat(10, 1fr);
-  transform: skewY(-12deg);
   transform-origin: 0;
+}
+
+.stripe {
+  background-color: rgba(255, 0, 0, 0.7);
   z-index: -1;
 }
 
 .one {
-  grid-column: 1 / 5;
-  grid-row: 2 / 3;
-  background-color: red;
+  grid-column: 1 / 11;
+  grid-row: 1 / 2;
+  transform: skewY(-8deg);
+}
+
+.two {
+  grid-column: 1 / 11;
+  grid-row: 3 / 4;
+  transform: skewY(12deg);
+}
+
+.three {
+  grid-column: 1 / 11;
+  grid-row: 1 / 2;
+  transform: skewY(33deg);
+}
+
+.four {
+  grid-column: 1 / 11;
+  grid-row: 3 / 4;
+  transform: skewY(-15deg);
 }
